@@ -1,0 +1,109 @@
+.cart {
+  width: 100%;
+  height: auto;
+  padding: 2rem 1rem;
+  @include flex(flex-start, flex-start);
+  @include mobile {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  &__info {
+    box-shadow: $box-shadow1;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    width: 30%;
+    @include mobile {
+      width: 100%;
+    }
+    &__txt {
+      & > * ~ * {
+        margin-top: 1rem;
+      }
+      p {
+        strong {
+          color: $main-color;
+        }
+      }
+      &__price {
+        @include flex(flex-start, space-between);
+        span:last-child {
+          color: $main-color;
+          font-weight: 700;
+          font-size: 1.2rem;
+        }
+      }
+    }
+    &__btn {
+      button {
+        width: 100%;
+        margin-top: 1rem;
+      }
+    }
+  }
+  &__list {
+    margin-left: 2rem;
+    width: 70%;
+    @include mobile {
+      width: 100%;
+      margin-left: unset;
+      margin-top: 2rem;
+    }
+    @include tablet {
+      width: unset;
+    }
+    & > * ~ * {
+      margin-top: 2rem;
+    }
+  }
+}
+.cart__item {
+  border-radius: 10px;
+  box-shadow: $box-shadow1;
+  padding: 10px;
+  @include flex(flex-start, flex-start);
+  width: 100%;
+  cursor: pointer;
+  &:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+  }
+  &__image {
+    width: 40%;
+    img {
+      height: 200px;
+      width: 200px;
+      border-radius: 25px;
+      @include mobile {
+        height: 130px;
+        width: 130px;
+      }
+    }
+  }
+  &__info {
+    width: 50%;
+    margin-left: 1rem;
+    @include flex(flex-start, flex-start);
+    flex-direction: column;
+    position: relative;
+    & > * ~ * {
+      margin-top: 1rem;
+    }
+    &__name,
+    &__price {
+      font-weight: 600;
+      color: $main-color;
+      font-size: 1.4rem;
+    }
+    &__del {
+      position: absolute;
+      right: 10%;
+      top: 50%;
+      font-size: 1.5rem;
+      cursor: pointer;
+      @include mobile {
+        right: 0;
+        top: 70%;
+      }
+    }
+  }
+}

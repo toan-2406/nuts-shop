@@ -1,0 +1,65 @@
+.catalog {
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+  @include tablet {
+    flex-direction: column;
+  }
+  &__filter {
+    width: 20%;
+    @include tablet {
+      width: max-content;
+      height: 100vh;
+      background-color: $main-bg;
+      padding: 1rem;
+      position: fixed;
+      top: $header-shrink-height;
+      left: 0;
+      z-index: 99;
+      box-shadow: $box-shadow;
+      transform: translateX(-105%);
+      transition: transform 0.3s ease;
+    }
+    @include mobile {
+      top: $header-shrink-height;
+    }
+    &.active {
+      transform: translateX(0);
+    }
+    &__toggle,
+    &__close {
+      display: none;
+      @include tablet {
+        display: block;
+      }
+    }
+    &__close {
+      i {
+        font-size: 2rem;
+      }
+    }
+    &__toggle {
+      margin: 0 0 1rem 3rem;
+    }
+
+    &.sticky {
+      position: sticky;
+      top: 80px;
+    }
+    &__widget {
+      margin: 20px;
+      &__title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+      }
+    }
+  }
+  &__content {
+    flex-grow: 1;
+    @include tablet {
+      width: 100%;
+    }
+  }
+}
