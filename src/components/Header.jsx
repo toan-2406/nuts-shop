@@ -10,15 +10,15 @@ const mainNav = [
   },
   {
     display: "Sản Phẩm",
-    path: "/catalog",
+    path: "/san-pham",
   },
   {
-    display: "Phụ Kiện",
-    path: "/accessories",
+    display: "Về chúng tôi",
+    path: "/ve-chung-toi",
   },
   {
     display: "Liên Hệ",
-    path: "/contact",
+    path: "/lien-he",
   },
 ];
 
@@ -86,7 +86,7 @@ const Header = () => {
               <i className="bx bx-search"></i>
             </div>
             <div className="header__menu__right__item header__menu__item">
-              <Link to="/cart">
+              <Link to="/gio-hang">
                 <i className="bx bx-shopping-bag"></i>
               </Link>
             </div>

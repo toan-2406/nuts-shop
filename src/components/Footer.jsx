@@ -9,42 +9,42 @@ import logo from "../assets/images/logo.png";
 const FooterAboutLinks = [
   {
     display: "Giới thiệu",
-    path: "/about",
+    path: "/ve-chung-toi",
   },
   {
     display: "Liên hệ",
-    path: "/about",
+    path: "/lien-he",
   },
   {
     display: "Tuyển dụng",
-    path: "/about",
+    path: "/lien-he",
   },
   {
     display: "Tin tức",
-    path: "/about",
+    path: "/lien-he",
   },
   {
     display: "Hệ thống cửa hàng",
-    path: "/about",
+    path: "/lien-he",
   },
 ];
 
 const FooterCustomerLinks = [
   {
     display: "Chính sách đổi trả",
-    path: "/about",
+    path: "/lien-he",
   },
   {
     display: "Chính sách bảo hành",
-    path: "/about",
+    path: "/lien-he",
   },
   {
     display: "Chính sách hoàn tiền",
-    path: "/about",
+    path: "/lien-he",
   },
   {
     display: "Chính sách cho khách hàng VIP",
-    path: "/about",
+    path: "/lien-he",
   },
 ];
 
@@ -59,15 +59,10 @@ const Footer = () => {
                 <img src={logo} className="footer__logo" alt="ttsneaker logo" />
               </Link>
             </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto,
-              ipsam libero. Vel hic iusto eius odit voluptatibus quisquam culpa
-              distinctio reiciendis ad inventore et, vero
-            </p>
           </div>
 
           <div>
-            <div className="footer__title">Về TTsneaker</div>
+            <div className="footer__title">Về Chúng tôi</div>
             <div className="footer__content">
               {FooterAboutLinks.map((item, index) => (
                 <p key={index}>
@@ -90,13 +85,13 @@ const Footer = () => {
             <div className="footer__title">Tổng đài hổ trợ</div>
             <div className="footer__content">
               <p>
-                Liên hệ đặt hàng <strong>0345889755</strong>
+                Liên hệ đặt hàng <strong>0868326207</strong>
               </p>
               <p>
-                Thắc mắc đơn hàng <strong>0345889755</strong>
+                Thắc mắc đơn hàng <strong>0868326207</strong>
               </p>
               <p>
-                Góp ý, khiếu nại <strong>0345889755</strong>
+                Góp ý, khiếu nại <strong>0868326207</strong>
               </p>
             </div>
           </div>

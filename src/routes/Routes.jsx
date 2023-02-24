@@ -13,11 +13,11 @@ const Routes = () => {
     return (
         <Switch>
             <Route path='/' exact component={Home}/>
-            <Route path='/catalog/:slug'  component={Product}/>
-            <Route path='/catalog'  component={Catalog}/>
-            <Route path='/cart'  component={Cart}/>
-            <Route path='/contact'  component={Contact}/>
-            <Route path='/about'  component={About}/>
+            <Route path='/san-pham/:slug'  component={Product}/>
+            <Route path='/san-pham'  component={Catalog}/>
+            <Route path='/gio-hang'  component={Cart}/>
+            <Route path='/lien-he'  component={Contact}/>
+            <Route path='/ve-chung-toi'  component={About}/>
 
         </Switch>
     )

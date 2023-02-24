@@ -97,7 +97,7 @@ const ProductView = (props) => {
   };
 
   return (
-    <div className="product">
+    <article className="product">
       <div className="product__img">
         <div className="product__img__list">
           <div className="product__img__list__item">
@@ -127,8 +127,11 @@ const ProductView = (props) => {
           <div className="product__description__title">Chi Tiết Sản Phẩm</div>
           <div
             className="product__description__content"
-            // dangerouslySetInnerHTML={{ __html: product.description }}
-          ><ReactMarkdown children={product.description}  /></div>
+          >   <div className="post-container">
+          <ReactMarkdown >
+            {product.description}
+          </ReactMarkdown>
+          </div></div>
           <div className="product__description__toggle">
             <Button
               size="sm"
@@ -228,7 +231,7 @@ const ProductView = (props) => {
           </Button>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 
