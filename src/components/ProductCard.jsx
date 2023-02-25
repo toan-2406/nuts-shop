@@ -24,7 +24,7 @@ const ProductCard = (props) => {
       </Link>
       <div className="product-card__price">
         <span className="product-card__price__new">
-          {numberWithCommas(props.price)}
+          {numberWithCommas(props.price )}
         </span>
       </div>
 

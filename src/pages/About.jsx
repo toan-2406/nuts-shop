@@ -76,7 +76,7 @@ rát cổ.
 
 Để tiện lợi hơn trong việc sử
 dụng sản phẩm, bạn có thể tìm mua những loại hạt được chế biến tách vỏ sẵn như
-hạt macca, hạt hạnh nhân, hạt bí,... tại gian hàng của nhà Nuts.4U4U
+hạt macca, hạt hạnh nhân, hạt bí,... tại gian hàng của nhà Nuts.4U
 
 Ăn kèm với các món ăn nhẹ
 

@@ -61,7 +61,7 @@ const product_07_image_04 =
 const products = [
   {
     title: "HẠT ĐIỀU SẤY – HẠT ĐIỀU RANG MUỐI",
-    price: "239000",
+    price: "229000",
     images: [
       product_01_image_01,
       product_01_image_02,
@@ -71,7 +71,7 @@ const products = [
     categorySlug: "hat-dieu-say",
     colors: ["nguyên vị", "nguyên vỏ", "tách vỏ"],
     slug: "hat-dieu-say-hat-dieu-rang-muoi",
-    size: ["250gram", "500gram", "Combo 250gram+500gram"],
+    size: [  "Combo 250gram+500gram"],
     description: `Hạt điều là một loại hạt thuộc họ Anacardium occidentale, có nguồn gốc ở vùng duyên hải đông bắc Brazil và được trồng phổ biến ở các vùng khí hậu nhiệt đới như Ấn Độ, Sri Lanka, Kenya và Tanzania. Ở Việt Nam, hạt điều được trồng chủ yếu ở các tỉnh phía Nam, đặc biệt là các tỉnh Tây Nguyên và Đông Nam Bộ.
       Hạt điều chứa một lượng lớn vitamin, khoáng chất và chất chống oxy hóa. Có thể kể đến như vitamin E, K và B6, cũng như các khoáng chất như đồng, photpho, kẽm, magie và sắt. Các chất đó đóng vai trò quan trọng trong việc duy trì các chức năng của cơ thể, đây là lý do tại sao bạn nên bổ sung loại hạt giàu chất dinh dưỡng này vào chế độ ăn uống của mình.
        
@@ -147,7 +147,7 @@ Tất cả sản phẩm thương hiệu nhà Nuts.4U đều được lựa chọ
   },
   {
     title: "HẠT BÍ TÁCH VỎ",
-    price: "249000",
+    price: "239000",
     images: [
       product_02_image_01,
       product_02_image_02,
@@ -157,7 +157,7 @@ Tất cả sản phẩm thương hiệu nhà Nuts.4U đều được lựa chọ
     categorySlug: "hat-bi-tach-vo",
     colors: ["hạt loại 1", "hạt loại 2"],
     slug: "hat-bi-tach-vo",
-    size: ["250gram", "500gram", "Combo 250gram+500gram"],
+    size: [  "Combo 250gram+500gram"],
     description: `## Hạt Bí Xanh Ấn Độ - Công dụng và lợi ích cho sức khỏe
 
 Hạt bí xanh Ấn Độ được đóng gói trong hũ/túi 500g và có hạn sử dụng là 1 năm. Sản phẩm này xuất xứ từ Ấn Độ và có nhiều công dụng và lợi ích cho sức khỏe.
@@ -184,7 +184,7 @@ Hạt bí xanh là nguồn thực vật cung cấp lượng omega 3 rất lớn.
   },
   {
     title: "HẠT HẠNH NHÂN SẤY TÁCH VỎ",
-    price: "249000",
+    price: "239000",
     images: [
       product_03_image_01,
       product_03_image_02,
@@ -194,7 +194,7 @@ Hạt bí xanh là nguồn thực vật cung cấp lượng omega 3 rất lớn.
     categorySlug: "hat-hanh-nhan-say",
     colors: ["loại 1", "loại 2"],
     slug: "hat-hanh-nhan-say-tach-vo",
-    size: ["250gram", "500gram", "Combo 250gram+500gram"],
+    size: [  "Combo 250gram+500gram"],
     description: `## Thành phần: 
 
 - Hạt hạnh nhân đã tách vỏ,..
@@ -219,12 +219,12 @@ Hạt bí xanh là nguồn thực vật cung cấp lượng omega 3 rất lớn.
   },
   {
     title: "TÁO ĐỎ SẤY",
-    price: "239000",
+    price: "229000",
     images: [product_04_image_01, product_04_image_02, product_04_image_03],
     categorySlug: "tao-do-say",
     colors: ["loại 1", "loại 2"],
     slug: "tao-do-say",
-    size: ["250gram", "500gram", "Combo 250gram+500gram"],
+    size: [  "Combo 250gram+500gram"],
     description: `## Táo Đỏ Sấy Khô Nguyên Quả
     
 Táo đỏ là một loại thảo dược quý, một món ăn bổ dưỡng mà chúng ta vẫn sử dụng hằng ngày. Táo Đỏ sấy khô mang vị ngọt tính bình có công dụng bồi bổ: bổ huyết, bổ tỳ, bổ can, thận, an thần,… dùng cho những người bị suy nhược, khí huyết kém lưu thông, ngủ không an giấc. Được sử dụng như một loại thực phẩm, vừa được dùng để thảo dược.
@@ -253,7 +253,7 @@ Táo đỏ là một loại thảo dược quý, một món ăn bổ dưỡng m�
   },
   {
     title: "TRÁI CÂY SẤY",
-    price: "249000",
+    price: "239000",
     images: [
       product_05_image_01,
       product_05_image_02,
@@ -263,7 +263,7 @@ Táo đỏ là một loại thảo dược quý, một món ăn bổ dưỡng m�
     categorySlug: "trai-cay-say",
     colors: ["Việt quất sấy", "Dâu tây sấy", "Nho sấy"],
     slug: "trai-cay-say",
-    size: ["250gram", "500gram", "Combo 250gram+500gram"],
+    size: [  "Combo 250gram+500gram"],
     description: `## Thành phần:
 
 3 loại trái cây: dâu sấy, việt quất sấy, nho sấy và xoài sấy.
@@ -289,7 +289,7 @@ Táo đỏ là một loại thảo dược quý, một món ăn bổ dưỡng m�
   },
   {
     title: "HẠT DINH DƯỠNG MIX – NGŨ CỐC GIẢM CÂN GRANOLA",
-    price: "159000",
+    price: "149000",
     images: [
       product_06_image_01,
       product_06_image_02,
@@ -299,7 +299,7 @@ Táo đỏ là một loại thảo dược quý, một món ăn bổ dưỡng m�
     categorySlug: "hat-dinh-duong-mix",
     colors: ["yến mạch", "tự mix hạt", "không yến mạch"],
     slug: "hat-dinh-duong-mix-ngu-coc-giam-can-granola",
-    size: ["250gram", "500gram"],
+    size: [ "Combo 250g + 500g"],
     description: `**📍Tự mix hạt bạn nhắn thông tin loại hạt bạn muốn mix cho shop nhé📩**
 
       ## Thành phần : 
@@ -343,7 +343,7 @@ Táo đỏ là một loại thảo dược quý, một món ăn bổ dưỡng m�
   },
   {
     title: "GRANOLA VỊ SOCOLA Và MATCHA",
-    price: "239000",
+    price: "229000",
     images: [
       product_07_image_01,
       product_07_image_02,
@@ -353,7 +353,7 @@ Táo đỏ là một loại thảo dược quý, một món ăn bổ dưỡng m�
     categorySlug: "granola-vi-socola-va-matcha",
     colors: ["socola", "matcha"],
     slug: "granola-vi-socola-va-matcha",
-    size: ["250gram", "500gram", "Combo 250gram+500gram"],
+    size: [ "Combo 250gram+500gram"],
     description: `## Thành phần: 
 
 - Ngũ cốc giảm cân mix 10 loại Hạt & Quả vị socola và matcha
