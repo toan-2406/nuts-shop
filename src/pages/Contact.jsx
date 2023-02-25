@@ -12,9 +12,9 @@ Gmail: <nuts.4U29@gmail.com>
 
 Hotline: 0868326207
 
-Fanpage : [https://www.facebook.com/profile.php?id=100090442660780](https://www.facebook.com/profile.php?id=100090442660780)
+Fanpage : [Nuts 4U](https://www.facebook.com/profile.php?id=100090442660780)
 
-Website  : [https://nuts-shop-rose.vercel.app/](https://nuts-shop-rose.vercel.app/)`;
+Website  : [https://nuts-shop-rose.vercel.app](https://nuts-shop-rose.vercel.app/)`;
   return (
     <Helmet title="Liên hệ">
       <Section>
