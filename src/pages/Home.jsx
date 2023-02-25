@@ -82,7 +82,7 @@ const Home = () => {
       {/*Banner Sale*/}
       <Section>
         <SectionBody>
-          <Link to="/catalog">
+          <Link to="/san-pham">
             <img src={bannersale} alt="" />
           </Link>
         </SectionBody>

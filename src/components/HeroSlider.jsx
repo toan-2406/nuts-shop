@@ -7,7 +7,7 @@ const HeroSlider = () => {
     <div className="hero-slider ">
       <img src={banner} alt="banner"/>
       <div className="hero-slider__item__btn">
-        <Link to="/catalog">
+        <Link to="/san-pham">
           <span>Shop now</span> <i className="bx bxs-cart-alt"></i>
         </Link>
       </div>

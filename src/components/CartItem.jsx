@@ -44,7 +44,7 @@ const CartItem = (props) => {
       </div>
       <div className="cart__item__info">
         <div className="cart__item__info__name">
-          <Link to={`/catalog/${item.slug}`}>
+          <Link to={`/san-pham/${item.slug}`}>
             {`${item.product.title} - ${item.color} - ${item.size}`}
           </Link>
         </div>
